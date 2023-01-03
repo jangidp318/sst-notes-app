@@ -10,7 +10,7 @@ export function StorageStack({ stack, app }) {
             userId: "string",
             noteId: "string"
         },
-        primaryIndex:{partitionKey:"userId",sortKey:"noteId"},
+        primaryIndex:{partitionKey:"userId", sortKey:"noteId"},
 
     })
 
